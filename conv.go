@@ -1,6 +1,6 @@
 package conv
 
-func sliceN(n int) []int {
+func SliceN(n int) []int {
 	cont, x := 0, n
 	for x != 0 {
 		x /= 10
