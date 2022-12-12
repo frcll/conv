@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+// funzione che converte un intero in una slice al contrario
 func SliceN(n int) []int {
 	var sliceN []int
 	cont := 0
@@ -16,6 +17,7 @@ func SliceN(n int) []int {
 	return sliceN
 }
 
+// funzione che converte un intero in una slice
 func SliceNst(n int) []int {
 	cifre := strings.Split(strconv.Itoa(int(n)), "")
 	s := make([]int, len(cifre))
